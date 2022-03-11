@@ -13,6 +13,9 @@ height: 100vh;
 background-image: url("../img/header_background.jpeg");
 background-position: center;
 background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 
@@ -61,12 +64,6 @@ iframe {
 .a {
     text-decoration: none;
     color: red;
-}
-
-.flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 @media only screen  and (max-width: 800px) {
